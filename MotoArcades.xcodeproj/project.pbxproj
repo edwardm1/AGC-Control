@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C88225B92031EC250021E522 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88225B82031EC250021E522 /* AppDelegate.swift */; };
+		C88225BB2031EC250021E522 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88225BA2031EC250021E522 /* ViewController.swift */; };
+		C88225BE2031EC250021E522 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88225BC2031EC250021E522 /* Main.storyboard */; };
+		C88225C02031EC250021E522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C88225BF2031EC250021E522 /* Assets.xcassets */; };
+		C88225C32031EC250021E522 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88225C12031EC250021E522 /* LaunchScreen.storyboard */; };
+		C88225CE2031EC250021E522 /* MotoArcadesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88225CD2031EC250021E522 /* MotoArcadesTests.swift */; };
+		C88225D92031EC250021E522 /* MotoArcadesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88225D82031EC250021E522 /* MotoArcadesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C88225CA2031EC250021E522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C88225AD2031EC250021E522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C88225B42031EC250021E522;
+			remoteInfo = MotoArcades;
+		};
+		C88225D52031EC250021E522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C88225AD2031EC250021E522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C88225B42031EC250021E522;
+			remoteInfo = MotoArcades;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C88225B52031EC250021E522 /* MotoArcades.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotoArcades.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88225B82031EC250021E522 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C88225BA2031EC250021E522 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C88225BD2031EC250021E522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C88225BF2031EC250021E522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C88225C22031EC250021E522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C88225C42031EC250021E522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C88225C92031EC250021E522 /* MotoArcadesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotoArcadesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88225CD2031EC250021E522 /* MotoArcadesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoArcadesTests.swift; sourceTree = "<group>"; };
+		C88225CF2031EC250021E522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C88225D42031EC250021E522 /* MotoArcadesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotoArcadesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88225D82031EC250021E522 /* MotoArcadesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoArcadesUITests.swift; sourceTree = "<group>"; };
+		C88225DA2031EC250021E522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C88225B22031EC250021E522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88225C62031EC250021E522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88225D12031EC250021E522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C88225AC2031EC250021E522 = {
+			isa = PBXGroup;
+			children = (
+				C88225B72031EC250021E522 /* MotoArcades */,
+				C88225CC2031EC250021E522 /* MotoArcadesTests */,
+				C88225D72031EC250021E522 /* MotoArcadesUITests */,
+				C88225B62031EC250021E522 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C88225B62031EC250021E522 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C88225B52031EC250021E522 /* MotoArcades.app */,
+				C88225C92031EC250021E522 /* MotoArcadesTests.xctest */,
+				C88225D42031EC250021E522 /* MotoArcadesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C88225B72031EC250021E522 /* MotoArcades */ = {
+			isa = PBXGroup;
+			children = (
+				C88225B82031EC250021E522 /* AppDelegate.swift */,
+				C88225BA2031EC250021E522 /* ViewController.swift */,
+				C88225BC2031EC250021E522 /* Main.storyboard */,
+				C88225BF2031EC250021E522 /* Assets.xcassets */,
+				C88225C12031EC250021E522 /* LaunchScreen.storyboard */,
+				C88225C42031EC250021E522 /* Info.plist */,
+			);
+			path = MotoArcades;
+			sourceTree = "<group>";
+		};
+		C88225CC2031EC250021E522 /* MotoArcadesTests */ = {
+			isa = PBXGroup;
+			children = (
+				C88225CD2031EC250021E522 /* MotoArcadesTests.swift */,
+				C88225CF2031EC250021E522 /* Info.plist */,
+			);
+			path = MotoArcadesTests;
+			sourceTree = "<group>";
+		};
+		C88225D72031EC250021E522 /* MotoArcadesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C88225D82031EC250021E522 /* MotoArcadesUITests.swift */,
+				C88225DA2031EC250021E522 /* Info.plist */,
+			);
+			path = MotoArcadesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C88225B42031EC250021E522 /* MotoArcades */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C88225DD2031EC250021E522 /* Build configuration list for PBXNativeTarget "MotoArcades" */;
+			buildPhases = (
+				C88225B12031EC250021E522 /* Sources */,
+				C88225B22031EC250021E522 /* Frameworks */,
+				C88225B32031EC250021E522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotoArcades;
+			productName = MotoArcades;
+			productReference = C88225B52031EC250021E522 /* MotoArcades.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C88225C82031EC250021E522 /* MotoArcadesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C88225E02031EC250021E522 /* Build configuration list for PBXNativeTarget "MotoArcadesTests" */;
+			buildPhases = (
+				C88225C52031EC250021E522 /* Sources */,
+				C88225C62031EC250021E522 /* Frameworks */,
+				C88225C72031EC250021E522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C88225CB2031EC250021E522 /* PBXTargetDependency */,
+			);
+			name = MotoArcadesTests;
+			productName = MotoArcadesTests;
+			productReference = C88225C92031EC250021E522 /* MotoArcadesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C88225D32031EC250021E522 /* MotoArcadesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C88225E32031EC250021E522 /* Build configuration list for PBXNativeTarget "MotoArcadesUITests" */;
+			buildPhases = (
+				C88225D02031EC250021E522 /* Sources */,
+				C88225D12031EC250021E522 /* Frameworks */,
+				C88225D22031EC250021E522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C88225D62031EC250021E522 /* PBXTargetDependency */,
+			);
+			name = MotoArcadesUITests;
+			productName = MotoArcadesUITests;
+			productReference = C88225D42031EC250021E522 /* MotoArcadesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C88225AD2031EC250021E522 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Edwards, Mike";
+				TargetAttributes = {
+					C88225B42031EC250021E522 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C88225C82031EC250021E522 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C88225B42031EC250021E522;
+					};
+					C88225D32031EC250021E522 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C88225B42031EC250021E522;
+					};
+				};
+			};
+			buildConfigurationList = C88225B02031EC250021E522 /* Build configuration list for PBXProject "MotoArcades" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C88225AC2031EC250021E522;
+			productRefGroup = C88225B62031EC250021E522 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C88225B42031EC250021E522 /* MotoArcades */,
+				C88225C82031EC250021E522 /* MotoArcadesTests */,
+				C88225D32031EC250021E522 /* MotoArcadesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C88225B32031EC250021E522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88225C32031EC250021E522 /* LaunchScreen.storyboard in Resources */,
+				C88225C02031EC250021E522 /* Assets.xcassets in Resources */,
+				C88225BE2031EC250021E522 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88225C72031EC250021E522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88225D22031EC250021E522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C88225B12031EC250021E522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88225BB2031EC250021E522 /* ViewController.swift in Sources */,
+				C88225B92031EC250021E522 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88225C52031EC250021E522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88225CE2031EC250021E522 /* MotoArcadesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88225D02031EC250021E522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88225D92031EC250021E522 /* MotoArcadesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C88225CB2031EC250021E522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C88225B42031EC250021E522 /* MotoArcades */;
+			targetProxy = C88225CA2031EC250021E522 /* PBXContainerItemProxy */;
+		};
+		C88225D62031EC250021E522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C88225B42031EC250021E522 /* MotoArcades */;
+			targetProxy = C88225D52031EC250021E522 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C88225BC2031EC250021E522 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C88225BD2031EC250021E522 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C88225C12031EC250021E522 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C88225C22031EC250021E522 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C88225DB2031EC250021E522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C88225DC2031EC250021E522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C88225DE2031EC250021E522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26792VELF2;
+				INFOPLIST_FILE = MotoArcades/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moto-way.MotoArcades";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C88225DF2031EC250021E522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26792VELF2;
+				INFOPLIST_FILE = MotoArcades/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moto-way.MotoArcades";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C88225E12031EC250021E522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26792VELF2;
+				INFOPLIST_FILE = MotoArcadesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moto-way.MotoArcadesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotoArcades.app/MotoArcades";
+			};
+			name = Debug;
+		};
+		C88225E22031EC250021E522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26792VELF2;
+				INFOPLIST_FILE = MotoArcadesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moto-way.MotoArcadesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotoArcades.app/MotoArcades";
+			};
+			name = Release;
+		};
+		C88225E42031EC250021E522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26792VELF2;
+				INFOPLIST_FILE = MotoArcadesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moto-way.MotoArcadesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MotoArcades;
+			};
+			name = Debug;
+		};
+		C88225E52031EC250021E522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26792VELF2;
+				INFOPLIST_FILE = MotoArcadesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moto-way.MotoArcadesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MotoArcades;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C88225B02031EC250021E522 /* Build configuration list for PBXProject "MotoArcades" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88225DB2031EC250021E522 /* Debug */,
+				C88225DC2031EC250021E522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C88225DD2031EC250021E522 /* Build configuration list for PBXNativeTarget "MotoArcades" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88225DE2031EC250021E522 /* Debug */,
+				C88225DF2031EC250021E522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C88225E02031EC250021E522 /* Build configuration list for PBXNativeTarget "MotoArcadesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88225E12031EC250021E522 /* Debug */,
+				C88225E22031EC250021E522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C88225E32031EC250021E522 /* Build configuration list for PBXNativeTarget "MotoArcadesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88225E42031EC250021E522 /* Debug */,
+				C88225E52031EC250021E522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C88225AD2031EC250021E522 /* Project object */;
+}
